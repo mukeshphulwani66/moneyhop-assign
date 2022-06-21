@@ -1,0 +1,24 @@
+.App{
+  padding: 20px;
+  margin: 0 20px;
+}
+
+h3{
+  text-align: center;
+}
+
+.results{
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 10px;
+  row-gap: 10px;
+  justify-content: center;
+  
+}
+
+img{
+
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
