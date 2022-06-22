@@ -4,6 +4,7 @@ import { useEffect, useState } from 'react';
 import Pagination from './components/Pagination';
 import Search from './components/Search';
 import GifResults from './components/GifResults';
+import { debounce } from './decounce';
 
 const API_KEY = "ZELWfybDrO73wDnOiw0e5WqfqtjpiioD"
 const ITEMS_PER_PAGE = 12
@@ -13,6 +14,7 @@ const fetchGifs = async (query) => {
   console.log(data)
   return data
 }
+
 
 
 function App() {
@@ -26,10 +28,10 @@ function App() {
   const currentResults = results.slice(indexOfFirstGig, indexOfLastGig);
   const totalPages = Math.ceil(results.length / ITEMS_PER_PAGE)
 
-  const getGif = async (q) => {
+  const getGif = debounce(async (q) => {
     const { data } = await fetchGifs(q)
     setResult(data)
-  }
+  },1000)
 
   return (
     <div className="App">
