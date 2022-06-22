@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/moneyhop-assign/static/css/main.dd4cf7cb.css",
-    "main.js": "/moneyhop-assign/static/js/main.940a5001.js",
+    "main.js": "/moneyhop-assign/static/js/main.396107ef.js",
     "static/js/787.5d358d98.chunk.js": "/moneyhop-assign/static/js/787.5d358d98.chunk.js",
     "static/media/logo.svg": "/moneyhop-assign/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/moneyhop-assign/index.html",
     "main.dd4cf7cb.css.map": "/moneyhop-assign/static/css/main.dd4cf7cb.css.map",
-    "main.940a5001.js.map": "/moneyhop-assign/static/js/main.940a5001.js.map",
+    "main.396107ef.js.map": "/moneyhop-assign/static/js/main.396107ef.js.map",
     "787.5d358d98.chunk.js.map": "/moneyhop-assign/static/js/787.5d358d98.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.dd4cf7cb.css",
-    "static/js/main.940a5001.js"
+    "static/js/main.396107ef.js"
   ]
 }
